@@ -1,0 +1,28 @@
+﻿@model AFS.Models.RecordModel
+@{
+    ViewData["Title"] = "Translate leet speak";
+}
+
+<form method="post" class="form-row">
+    <div class="form-group">
+        <div class="row">
+            <h2>Translate</h2>
+            <div class="col-xl-10">
+                <label asp-for="InputRecord"></label>
+                <textarea rows="3" id="enterText" cols="40" placeholder="Write the text you'd like to translate to leet speak"></textarea>
+            </div>
+            <div class="col-sm-6">
+                <button id="btn">Translate</button>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="col-sm-6">
+    <label asp-for="OutputRecord"></label>
+    <textarea rows="3" id="Result" cols="40" disabled="disabled"></textarea>
+</div>
+
+@section Scripts{
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="~/js/TranslatorScript.js"></script>
+}

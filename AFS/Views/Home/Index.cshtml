@@ -1,0 +1,25 @@
+﻿@model AFS.Models.RecordModel
+@addTagHelper  *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Translate leet speak";
+}
+
+<form asp-action="Index" asp-controller="Home">
+    <div class="form-group">
+        <h2>Translate</h2>
+        <div class="col-xl-10">
+            <label asp-for="InputRecord"></label>
+            <textarea cols="40" rows="3" asp-for="InputRecord" placeholder="Write the text you'd like to translate to leet speak"></textarea>
+        </div>
+        <input type="submit" value="Translate" />
+    </div>
+</form>
+<div class="col-sm-6">
+    <label asp-for="OutputRecord"></label>
+    <textarea rows="3" id="Result" cols="40" disabled="disabled"> 
+            @if (ViewBag.output != null)
+            {
+                @ViewBag.output
+            }
+            </textarea>
+</div>
