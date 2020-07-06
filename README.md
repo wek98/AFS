@@ -1,4 +1,4 @@
-# AFS
+# AFS .Net Developer Test
 ## Application that translates string to leet speak.
 #### API consumption implemented in APIConsumers folder.
 #### All the calls and results are stored in database which I created with the Entity Framework.
