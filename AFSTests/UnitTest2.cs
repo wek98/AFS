@@ -14,10 +14,7 @@ namespace AFSTests
 
         [SetUp]
         public void Setup()
-        {
-
-
-        }
+        { }
         [TestFixture]
         public class IndexPageRequest
         {

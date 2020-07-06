@@ -13,9 +13,9 @@ namespace AFS.Models
     {
         [Key]
         public int Id { get; set; }
-        [DisplayName("Text to translate")]
+        [DisplayName("Text to translate  ")]
         public string InputRecord { get; set; }
-        [DisplayName("Translated text")]
+        [DisplayName("Translated text  ")]
         public string OutputRecord { get; set; }
         public RecordModel() { }
         public RecordModel(string inputRecord, string outputRecord)

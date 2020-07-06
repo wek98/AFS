@@ -129,8 +129,10 @@ C:\Users\wikto\source\repos\AFS\AFSTests\bin\Release\netcoreapp3.1\AFS.pdb
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.csprojAssemblyReference.cache
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.AssemblyInfoInputs.cache
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.AssemblyInfo.cs
-C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.csproj.CoreCompileInputs.cache
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.csproj.CopyComplete
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.dll
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.pdb
 C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.genruntimeconfig.cache
+C:\Users\wikto\source\repos\AFS\AFSTests\bin\Release\netcoreapp3.1\Castle.Core.dll
+C:\Users\wikto\source\repos\AFS\AFSTests\bin\Release\netcoreapp3.1\Moq.dll
+C:\Users\wikto\source\repos\AFS\AFSTests\obj\Release\netcoreapp3.1\AFSTests.csproj.CoreCompileInputs.cache

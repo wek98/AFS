@@ -24,6 +24,7 @@ namespace AFS.APIConsumers
             query["text"] = userInput;
             builder.Query = query.ToString();
             var uri = builder.Uri;
+            string requestsHandler= "Too many requests";
             using var client = new HttpClient();
 
             var responseTask = client.GetAsync(uri);
@@ -36,7 +37,7 @@ namespace AFS.APIConsumers
                 return readTask.Result;
             }
             else
-                return "Too much requests";
+                return requestsHandler;
         }
 
         /// <summary>
@@ -46,8 +47,8 @@ namespace AFS.APIConsumers
         /// <returns></returns>
         public string GetLeetText(string inputJSON)
         {
-            if (inputJSON.Equals("Too much requests"))
-                return "Too much requests! Try again later.";
+            if (inputJSON.Equals("Too many requests"))
+                return "Too many requests! Try again later.";
             JObject jObject = JObject.Parse(inputJSON);
             string leetText = (string)jObject.SelectToken("contents.translated");
             return leetText;
